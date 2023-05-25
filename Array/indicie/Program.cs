@@ -11,7 +11,7 @@ namespace indicie
         static void Main(string[] args)
         {
             int[] x = new int[10];
-
+            
             for (int i = 0; i < x.Length; i++)
             {
                 Console.Write($"Informe o {i+1}° valor: ");

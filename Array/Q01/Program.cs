@@ -11,6 +11,7 @@ namespace Q01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("---Imprimir Nomes---");
             string[] nomes = new string[5];
 
             for (int i = 0; i < nomes.Length; i++)

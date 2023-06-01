@@ -11,6 +11,8 @@ namespace Test
         static void Main(string[] args)
         {
             int[] x = new int[] { 1, 2, 3 };
+            int[] y = new int[x.Length];
+            x.CopyTo(y, 0);
             Array.Reverse(x);
             for (int i = 0; i < x.Length; i++)
             {

@@ -10,12 +10,12 @@ namespace indicie
     {
         static void Main(string[] args)
         {
-            int[] x = new int[10];
+            string[] x = new string[10];
             
             for (int i = 0; i < x.Length; i++)
             {
-                Console.Write($"Informe o {i+1}° valor: ");
-                x[i] = int.Parse(Console.ReadLine());
+                Console.Write($"Informe o {i+1}° nome: ");
+                x[i] = Console.ReadLine();
             }
 
                 bool res = true;

@@ -20,8 +20,6 @@ namespace Achar
             Console.Write("Informe o valor que deseja achar na lista: ");
             int x = int.Parse(Console.ReadLine());
 
-            int ind = Array.IndexOf(A, x);
-
             if (A.Contains(x))
             {
                 Console.WriteLine($"ACHEI");

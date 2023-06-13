@@ -10,6 +10,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            int[ , ] A = new int[3, 4];
             int[] x = new int[] { 1, 2, 3 };
             int[] y = new int[x.Length];
             x.CopyTo(y, 0);
